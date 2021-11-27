@@ -3,7 +3,10 @@ guid: 424eef8abcd4d7943a9a0f738fbd876c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - FPCamera: {instanceID: 0}
+  - muzzleFlash: {instanceID: 0}
+  - hitEffect: {fileID: 1989679443345432619, guid: 0ef75f235ff84544bb1816c8e8695a80, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
