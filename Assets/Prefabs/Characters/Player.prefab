@@ -342,7 +342,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a620ae3107c3be40b837acbd789ae08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoSlots: []
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 10
+  - ammoType: 1
+    ammoAmount: 5
+  - ammoType: 2
+    ammoAmount: 5
 --- !u!1 &4909071738856090566
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +415,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 7043100735065729498}
+    - target: {fileID: 384297633384299062, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
+      propertyPath: ammoType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 384297633384299062, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
       propertyPath: timeBetweenShots
       value: 1
@@ -503,6 +513,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 7043100735065729498}
+    - target: {fileID: 384297633384299062, guid: e304881ee2602bf4da23523d20d6c487, type: 3}
+      propertyPath: ammoType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 384297633384299062, guid: e304881ee2602bf4da23523d20d6c487, type: 3}
       propertyPath: timeBetweenShots
       value: 2
