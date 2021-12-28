@@ -70,7 +70,7 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _OcclusionStrength: 0.75
+    - _OcclusionStrength: 0.83
     - _Parallax: 0.040149253
     - _RMS: 0.3194351
     - _ShadeRange: 0.02
@@ -87,6 +87,7 @@ Material:
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _SpecColor: {r: 0.3432836, g: 0.3432836, b: 0.3432836, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6
